@@ -1,5 +1,5 @@
 {
-    "name": "green-fest-map-dev",
+    "name": "shodai-now-dev",
     "dockerComposeFile": [
         "../docker-compose.yml"
     ],
