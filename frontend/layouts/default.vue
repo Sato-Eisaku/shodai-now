@@ -25,23 +25,28 @@
     >
       <v-list
         nav
-        dense
       >
         <v-list-item-group
           v-model="group"
-          active-class="deep-purple--text text--accent-4"
+          active-class="light-blue--text text--accent-3"
         >
           <!-- 各メニューをループで作成 -->
-          <v-list-item @click="drawer = false">
+          <v-list-item
+            dense
+            @click="drawer = false"
+          >
             <v-list-item-action>
-              <v-list-item-icon>
+              <v-app-bar-nav-icon @click="drawer = false" />
+              <!-- <v-list-item-icon>
                 <v-icon>mdi-menu</v-icon>
-              </v-list-item-icon>
+              </v-list-item-icon> -->
             </v-list-item-action>
           </v-list-item>
+          <v-divider />
           <v-list-item
             v-for="item in naviItems"
             :key="item.title"
+            class="my-2"
             :to="item.to_page"
             @click="drawer=false"
           >
