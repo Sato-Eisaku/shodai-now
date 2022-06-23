@@ -1,0 +1,7 @@
+services:
+  nuxt:
+    volumes:
+      - .:/workspace:cached
+  python:
+    volumes:
+      - .:/workspace:cached
