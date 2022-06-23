@@ -4,7 +4,7 @@ WORKDIR /app/src
 
 RUN apt-get update
 
-COPY ./src/package.json /app/src/
+COPY ./package.json /app/src/
 
 RUN yarn install
 

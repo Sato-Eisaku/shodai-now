@@ -6,7 +6,7 @@ volumes:
 services:
   nuxt:
     build:
-      context: .
+      context: ./frontend
       target: development
     restart: always
     ports:
@@ -19,7 +19,26 @@ services:
         source: nuxt
         target: /app/src/.nuxt
       - type: bind
-        source: ./src
+        source: ./frontend
+        target: /app/src
+    stdin_open: true
+    tty: true
+  python:
+    environment:
+      - BEARER_TOKEN=$BEARER_TOKEN
+      - CONSUMER_KEY=$CONSUMER_KEY
+      - CONSUMER_SECRET=$CONSUMER_SECRET
+      - ACCESS_TOKEN_KEY=$ACCESS_TOKEN_KEY
+      - ACCESS_TOKEN_SECRET=$ACCESS_TOKEN_SECRET
+      - CLIENT_ID=$CLIENT_ID
+      - CLIENT_SECRET=$CLIENT_SECRET
+    build:
+      context: ./crawl-tweet
+      target: development
+    restart: always
+    volumes:
+      - type: bind
+        source: ./crawl-tweet
         target: /app/src
     stdin_open: true
     tty: true

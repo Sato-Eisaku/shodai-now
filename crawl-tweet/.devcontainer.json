@@ -1,0 +1,16 @@
+{
+    "name": "shodai-now-dev-python",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "python",
+    "workspaceFolder": "/app/src/",
+    "settings": {
+        "editor.tabSize": 2
+    },
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ]
+}
