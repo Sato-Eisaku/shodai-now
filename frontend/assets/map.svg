@@ -3,56 +3,65 @@
   <defs>
     <style>.cls-1{font-size:18px;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8{font-family:KozGoPr6N-Regular-90ms-RKSJ-H, 'Kozuka Gothic Pr6N';}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-8{fill:#4d4d4d;}.cls-2{font-size:15px;}.cls-3{font-size:20px;}.cls-9{letter-spacing:.25em;}.cls-10{fill:none;}.cls-10,.cls-11,.cls-12{stroke-miterlimit:10;stroke-width:3px;}.cls-10,.cls-7{stroke:#666;}.cls-11{fill:#ffac06;}.cls-11,.cls-12{stroke:gray;}.cls-12{fill:#cee741;}.cls-4{font-size:11px;}.cls-5{font-size:25px;}.cls-6{font-size:30px;}.cls-7,.cls-8{font-size:48px;}</style>
   </defs>
-  <g id="bg">
-    <rect id="library" class="cls-10" x="273.83" y="373.87" width="727.83" height="381.52" />
-    <rect id="build3" class="cls-10" x="273.83" y="35.78" width="1306.57" height="180" />
-    <rect id="hall" class="cls-10" x="273.83" y="857.52" width="241.83" height="580.7" />
-    <rect id="sickbay" class="cls-10" x="1353.83" y="857.52" width="171.39" height="103.3" />
-    <polygon id="office" class="cls-10" points="1595.65 1265.56 1162.09 1265.56 1162.09 874.26 1329.17 874.26 1328.86 1046.43 1595.65 1046.43 1595.65 1265.56" />
-    <polygon id="triangle2" class="cls-10" points="1180.56 382.2 1180.74 754.16 1552.51 382.38 1180.56 382.2" />
-    <polygon id="triangle1" class="cls-10" points="1563.6 752.36 1560.43 532.35 1343.58 749.2 1563.6 752.36" />
-    <polyline id="side_road2" class="cls-10" points="1147.22 1348.22 1147.22 857.52 1595.65 857.52" />
-    <polyline id="side_road1" class="cls-10" points="1042.74 1348.22 1042.74 857.52 232.74 857.52" />
-  </g>
-  <g id="booths">
-    <rect id="booth_1" class="cls-11" x="1004.65" y="742.48" width="58.04" height="72.78" />
-    <rect id="booth_2" class="cls-11" x="1004.65" y="650.33" width="58.04" height="72.78" />
-    <rect id="booth_3" class="cls-11" x="1004.65" y="466.02" width="58.04" height="72.78" />
-    <rect id="booth_4" class="cls-11" x="1004.65" y="373.87" width="58.04" height="72.78" />
-    <rect id="booth_5" class="cls-11" x="1118.91" y="466.02" width="61.04" height="72.78" />
-    <rect id="booth_6" class="cls-11" x="1118.91" y="373.87" width="61.04" height="72.78" />
-    <rect id="min_booth_1" class="cls-11" x="1186.74" y="333.7" width="61.04" height="46.49" />
-    <rect id="min_booth_2" class="cls-11" x="1256.98" y="333.7" width="61.04" height="46.49" />
-    <rect id="min_booth_3" class="cls-11" x="1405.35" y="333.7" width="61.04" height="46.49" />
-    <rect id="min_booth_4" class="cls-11" x="1486.74" y="333.7" width="61.04" height="46.49" />
-    <rect id="min_booth_5" class="cls-11" x="1222.74" y="218.85" width="61.04" height="46.49" />
-    <rect id="min_booth_6" class="cls-11" x="1307.26" y="218.85" width="61.04" height="46.49" />
-    <rect id="min_booth_8" class="cls-11" x="1460.78" y="623.89" width="61.04" height="46.49" transform="translate(894.39 -864.97) rotate(45)" />
-    <rect id="min_booth_7" class="cls-11" x="1410.9" y="673.78" width="61.04" height="46.49" transform="translate(915.05 -815.09) rotate(45)" />
-    <rect id="booth_7" class="cls-11" x="1198.86" y="626.01" width="58.54" height="72.78" transform="translate(828.1 -674.41) rotate(45)" />
-    <rect id="booth_8" class="cls-11" x="1252.96" y="556.86" width="76.07" height="60.55" transform="translate(793.29 -740.9) rotate(45)" />
-    <rect id="booth_9" class="cls-11" x="1314.73" y="495.09" width="76.07" height="60.55" transform="translate(767.71 -802.68) rotate(45)" />
-    <rect id="booth_10" class="cls-11" x="1375.14" y="434.69" width="76.07" height="60.55" transform="translate(742.69 -863.08) rotate(45)" />
-    <rect id="booth_11" class="cls-11" x="1388.23" y="218.85" width="78.17" height="60.55" />
-  </g>
-  <g id="rest_areas">
-    <rect id="rest_area_1" class="cls-12" x="771.43" y="218.39" width="100.7" height="75.13" />
-    <rect id="rest_area_2" class="cls-12" x="771.43" y="296.13" width="100.7" height="75.13" />
-    <rect id="rest_area_3" class="cls-12" x="889.35" y="296.13" width="100.7" height="75.13" />
-    <rect id="rest_area_4" class="cls-12" x="889.35" y="218.39" width="100.7" height="75.13" />
-    <rect id="rest_area_5" class="cls-12" x="1489.21" y="218.85" width="78.17" height="60.55" />
-    <rect id="rest_area_6" class="cls-12" x="1004.65" y="558.17" width="58.04" height="72.78" />
-    <rect id="rest_area_7" class="cls-12" x="1331.16" y="333.7" width="61.04" height="46.49" />
-  </g>
-  <g id="official_booths">
-    <rect id="booth_fair" class="cls-12" x="1118.91" y="558.17" width="61.04" height="72.78" />
-    <rect id="_07" class="cls-12" x="1161.47" y="113.26" width="111.58" height="72.78" />
-    <rect id="glocal1" class="cls-12" x="760.55" y="113.26" width="111.58" height="72.78" />
-    <rect id="glocal2" class="cls-12" x="898.74" y="113.26" width="111.58" height="72.78" />
-    <rect id="booth_marche" class="cls-12" x="1118.91" y="645.43" width="61.04" height="36.39" />
-    <rect id="hq" class="cls-12" x="1118.91" y="681.83" width="61.04" height="73.57" />
-    <rect id="stage" class="cls-12" x="559.09" y="1221.43" width="216.78" height="216.78" />
-  </g>
+  <!-- お試しでaタグつけてみましたが遷移しませんでした… -->
+  <a href="@/pages/index.vue">
+    <g id="bg">
+      <rect id="library" class="cls-10" x="273.83" y="373.87" width="727.83" height="381.52" />
+      <rect id="build3" class="cls-10" x="273.83" y="35.78" width="1306.57" height="180" />
+      <rect id="hall" class="cls-10" x="273.83" y="857.52" width="241.83" height="580.7" />
+      <rect id="sickbay" class="cls-10" x="1353.83" y="857.52" width="171.39" height="103.3" />
+      <polygon id="office" class="cls-10" points="1595.65 1265.56 1162.09 1265.56 1162.09 874.26 1329.17 874.26 1328.86 1046.43 1595.65 1046.43 1595.65 1265.56" />
+      <polygon id="triangle2" class="cls-10" points="1180.56 382.2 1180.74 754.16 1552.51 382.38 1180.56 382.2" />
+      <polygon id="triangle1" class="cls-10" points="1563.6 752.36 1560.43 532.35 1343.58 749.2 1563.6 752.36" />
+      <polyline id="side_road2" class="cls-10" points="1147.22 1348.22 1147.22 857.52 1595.65 857.52" />
+      <polyline id="side_road1" class="cls-10" points="1042.74 1348.22 1042.74 857.52 232.74 857.52" />
+    </g>
+  </a>
+  <a href="@/pages/index.vue">
+    <g id="booths">
+      <rect id="booth_1" class="cls-11" x="1004.65" y="742.48" width="58.04" height="72.78" />
+      <rect id="booth_2" class="cls-11" x="1004.65" y="650.33" width="58.04" height="72.78" />
+      <rect id="booth_3" class="cls-11" x="1004.65" y="466.02" width="58.04" height="72.78" />
+      <rect id="booth_4" class="cls-11" x="1004.65" y="373.87" width="58.04" height="72.78" />
+      <rect id="booth_5" class="cls-11" x="1118.91" y="466.02" width="61.04" height="72.78" />
+      <rect id="booth_6" class="cls-11" x="1118.91" y="373.87" width="61.04" height="72.78" />
+      <rect id="min_booth_1" class="cls-11" x="1186.74" y="333.7" width="61.04" height="46.49" />
+      <rect id="min_booth_2" class="cls-11" x="1256.98" y="333.7" width="61.04" height="46.49" />
+      <rect id="min_booth_3" class="cls-11" x="1405.35" y="333.7" width="61.04" height="46.49" />
+      <rect id="min_booth_4" class="cls-11" x="1486.74" y="333.7" width="61.04" height="46.49" />
+      <rect id="min_booth_5" class="cls-11" x="1222.74" y="218.85" width="61.04" height="46.49" />
+      <rect id="min_booth_6" class="cls-11" x="1307.26" y="218.85" width="61.04" height="46.49" />
+      <rect id="min_booth_8" class="cls-11" x="1460.78" y="623.89" width="61.04" height="46.49" transform="translate(894.39 -864.97) rotate(45)" />
+      <rect id="min_booth_7" class="cls-11" x="1410.9" y="673.78" width="61.04" height="46.49" transform="translate(915.05 -815.09) rotate(45)" />
+      <rect id="booth_7" class="cls-11" x="1198.86" y="626.01" width="58.54" height="72.78" transform="translate(828.1 -674.41) rotate(45)" />
+      <rect id="booth_8" class="cls-11" x="1252.96" y="556.86" width="76.07" height="60.55" transform="translate(793.29 -740.9) rotate(45)" />
+      <rect id="booth_9" class="cls-11" x="1314.73" y="495.09" width="76.07" height="60.55" transform="translate(767.71 -802.68) rotate(45)" />
+      <rect id="booth_10" class="cls-11" x="1375.14" y="434.69" width="76.07" height="60.55" transform="translate(742.69 -863.08) rotate(45)" />
+      <rect id="booth_11" class="cls-11" x="1388.23" y="218.85" width="78.17" height="60.55" />
+    </g>
+  </a>
+  <a href="@/pages/index.vue">
+    <g id="rest_areas">
+      <rect id="rest_area_1" class="cls-12" x="771.43" y="218.39" width="100.7" height="75.13" />
+      <rect id="rest_area_2" class="cls-12" x="771.43" y="296.13" width="100.7" height="75.13" />
+      <rect id="rest_area_3" class="cls-12" x="889.35" y="296.13" width="100.7" height="75.13" />
+      <rect id="rest_area_4" class="cls-12" x="889.35" y="218.39" width="100.7" height="75.13" />
+      <rect id="rest_area_5" class="cls-12" x="1489.21" y="218.85" width="78.17" height="60.55" />
+      <rect id="rest_area_6" class="cls-12" x="1004.65" y="558.17" width="58.04" height="72.78" />
+      <rect id="rest_area_7" class="cls-12" x="1331.16" y="333.7" width="61.04" height="46.49" />
+    </g>
+  </a>
+  <a href="@/pages/index.vue">
+    <g id="official_booths">
+      <rect id="booth_fair" class="cls-12" x="1118.91" y="558.17" width="61.04" height="72.78" />
+      <rect id="_07" class="cls-12" x="1161.47" y="113.26" width="111.58" height="72.78" />
+      <rect id="glocal1" class="cls-12" x="760.55" y="113.26" width="111.58" height="72.78" />
+      <rect id="glocal2" class="cls-12" x="898.74" y="113.26" width="111.58" height="72.78" />
+      <rect id="booth_marche" class="cls-12" x="1118.91" y="645.43" width="61.04" height="36.39" />
+      <rect id="hq" class="cls-12" x="1118.91" y="681.83" width="61.04" height="73.57" />
+      <rect id="stage" class="cls-12" x="559.09" y="1221.43" width="216.78" height="216.78" />
+    </g>
+  </a>
   <g id="texts">
     <text class="cls-5" transform="translate(1413.53 255.85)">
       <tspan x="0" y="0">11</tspan>
