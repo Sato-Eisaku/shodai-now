@@ -117,6 +117,12 @@ export default {
       this.isShow = true
       this.hashtag = this.markers[index].hashtag
       this.collection = this.markers[index].collection
+
+      this.$gtag('event', 'click', {
+        event_category: 'map',
+        event_label: 'marker',
+        value: `${this.markers[index].hashtag} view`
+      })
     }
   }
 }

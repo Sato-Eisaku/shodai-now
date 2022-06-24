@@ -45,7 +45,10 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    ['@nuxtjs/google-gtag', {
+      id: 'G-MB0R9LKFGW'
+    }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -91,7 +94,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extend (config, ctx) {},
+    extend(config, ctx) { },
     vendor: ['vue2-google-maps'],
     transpile: [/^vue2-google-maps($|\/)/]
   }
