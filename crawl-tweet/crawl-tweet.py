@@ -53,10 +53,7 @@ def delete_all_rules(rules):
 def set_rules(delete):
     with open("collectionTable.json", mode="r", encoding="utf-8") as f:
         config_json = json.load(f)
-    rules = [{"value": f"#{config['hashtag']} -is:retweet", "tag": f"{config['hashtag']}"} for config in config_json]
-    # rules = [
-    #     {"value": "#鈴原るる -is:retweet", "tag": "ruru"},
-    # ]
+    rules = [{"value": f"#商大なう #{config['hashtag']} -is:retweet", "tag": f"{config['hashtag']}"} for config in config_json]
     payload = {"add": rules}
     response = requests.post(
         "https://api.twitter.com/2/tweets/search/stream/rules",
