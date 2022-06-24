@@ -13,12 +13,14 @@ https://shodai-now.netlify.app/
 ### ツイートをする
 場所に対してつぶやきを残すことができます．
 <p>
-  <img src="docs/images/tweet.gif" width="10px">
+  <img src="docs/images/tweet.gif" width="30%">
 </p>
 
 ### ツイートを見る
 みんながどこで何をつぶやいたのかを見ることができます．
-![ツイート一覧](docs/images/tweet.png)
+<p>
+  <img src="docs/images/tweet.png" width="30%">
+</p>
 
 ## 技術構成
 ![技術構成図](docs/images//tech-stack.png)
