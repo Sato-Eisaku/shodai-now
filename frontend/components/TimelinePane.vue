@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <TweetHeader color="#000000">
+    <TweetHeader color="#ffffff" class="">
       #商大なう #{{ positionTag }}
     </TweetHeader>
     <TweetButton class="my-5" :position-tag="positionTag" />
