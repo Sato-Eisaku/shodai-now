@@ -81,5 +81,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  publicRuntimeConfig: {
+    mapApiKey: process.env.MAP_API_KEY
+  },
+  privateRuntimeConfig: {
+    mapApiKey: process.env.MAP_API_KEY
   }
 }
