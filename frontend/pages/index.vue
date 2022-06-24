@@ -5,6 +5,7 @@
       map-type-id="roadmap"
       :center="maplocation"
       :zoom="zoom"
+      :heading="190"
       :style="styleMap"
       :options="mapOptions"
     >
@@ -41,9 +42,9 @@ export default {
         height: '100%'
       },
       mapOptions: {
+        mapId: 'e19735a90eb9d837',
         fullscreenControl: false,
         streetViewControl: false,
-        styles: [],
         zoomControl: false,
         gestureHandling: 'greedy',
         mapTypeControl: false,
