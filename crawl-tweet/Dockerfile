@@ -12,3 +12,5 @@ RUN curl -sSL https://install.python-poetry.org | python -
 ENV PATH $PATH:/root/.local/bin/
 
 WORKDIR /app/src
+
+CMD poetry install && poetry run python crawl-tweet.py
