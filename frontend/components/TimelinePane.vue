@@ -1,11 +1,11 @@
 <template>
   <v-card>
     <TweetHeader color="#000000">
-      #商大なう
+      #商大なう #{{ positionTag }}
     </TweetHeader>
-    <TweetButton class="my-5" />
+    <TweetButton class="my-5" :position-tag="positionTag" />
     <v-card-text style="height: 60vh;">
-      <Timeline />
+      <Timeline :timeline-id="timelineId" />
     </v-card-text>
     <v-divider />
   </v-card>
@@ -13,10 +13,20 @@
 
 <script>
 export default {
+  props: {
+    positionTag: {
+      type: String,
+      default: '',
+      require: true
+    },
+    timelineId: {
+      type: String,
+      default: '',
+      require: true
+    }
+  },
   mounted () {
-    const script = document.createElement('script')
-    script.src = 'https://platform.twitter.com/widgets.js'
-    document.body.appendChild(script)
+
   }
 }
 </script>
