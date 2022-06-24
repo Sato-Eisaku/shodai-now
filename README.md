@@ -1,21 +1,23 @@
 # #商大なう
-（良い感じのイメージ画像など）
+![アイコン](docs/images/large-icon.png)
 
 ## 概要
 大学生活をより楽しむために作ったTwitter連携アプリです．
 
+## URL
+https://shodai-now.netlify.app/
+
 ## 機能
 ### ツイートをする
 場所に対してつぶやきを残すことができます．
+![ツイート画面に行くまで](docs/images/tweet.gif)
 
 ### ツイートを見る
 みんながどこで何をつぶやいたのかを見ることができます．
+![ツイート一覧](docs/images/tweet.png)
 
 ## 技術構成
-図を作っておこう
-
-## 編集するには
-（来年以降も使えるように色々整備したいよね）
+![技術構成図](docs/images//tech-stack.png)
 
 ## License
 [MIT](LICENSE)
