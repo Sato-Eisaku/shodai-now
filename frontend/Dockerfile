@@ -6,8 +6,8 @@ RUN apt-get update
 
 COPY ./package.json /app/src/
 
-RUN yarn install
+# RUN yarn install
 
 ENV HOST 0.0.0.0
 
-CMD yarn dev
+CMD yarn install && yarn dev

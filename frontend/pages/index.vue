@@ -91,6 +91,6 @@ export default {
 
 <style lang="scss" scoped>
   #mapwrapper{
-    height: 100vh
+    height: 100vh;
   }
 </style>

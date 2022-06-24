@@ -1,7 +1,5 @@
 <template>
-  <a class="twitter-timeline" :href="`https://twitter.com/k_y_kenzen/timelines/${timelineId}?ref_src=twsrc%5Etfw`">
-    テスト1 - Curated tweets by k_y_kenzen
-  </a>
+  <a class="twitter-timeline" :href="`https://twitter.com/k_y_kenzen/timelines/${timelineId}?ref_src=twsrc%5Etfw`" />
 </template>
 
 <script>
