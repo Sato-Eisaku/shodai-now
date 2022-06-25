@@ -22,6 +22,15 @@ export default {
       default: '',
       require: true
     }
+  },
+  methods: {
+    onClickButton () {
+      this.$gtag('event', 'click', {
+        event_category: 'tweet',
+        event_label: 'button',
+        value: `${this.positionTag} tweet`
+      })
+    }
   }
 }
 </script>
