@@ -91,6 +91,10 @@ def get_stream(set):
             collection_id = filtered_collection_id[0]["collection"]
             curate_collection(collection_id, [json_response["data"]])
 
+            # #商大なうが付いてるやつ全部集めるコレクションにも突っ込む
+            all_rule_collection_id = list(filter(lambda x: x["hashtag"] == "", config_json))[0]
+            curate_collection(all_rule_collection_id, [json_response["data"]])
+
 
 def curate_collection(collection_id, tweets):
     consumer_key = os.environ.get("CONSUMER_KEY")
