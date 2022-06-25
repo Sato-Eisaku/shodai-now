@@ -72,12 +72,12 @@ export default {
           to_page: 'contact',
           icon: 'mdi-email-multiple',
           title: 'お問合せ'
-        }
-        /* {
-          to_page: 'tweet_list',
+        },
+        {
+          to_page: 'tweet-list',
           icon: 'mdi-format-list-text',
           title: 'ツイート一覧'
-        } */
+        }
       ]
     }
   }
